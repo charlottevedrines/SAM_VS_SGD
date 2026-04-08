@@ -9,7 +9,7 @@ To reproduce results regarding SAM's performance against SGD including Figure 5,
 To reproduce the results in Table 1,
 1. Download train_and_t_test.py
 2. Install the relevant python packages (`pip install torch torchvision numpy scipy tqdm`). You may want to install cuda versions of torch to run on GPU.
-3. Run `python train_and_t_test.py`
+3. Run `python train_and_t_test.py --model b0`
 
 ## Acknowledgments
 - The original authors of SAM [SHARPNESS-AWARE MINIMIZATION FOR EFFICIENTLY
