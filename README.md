@@ -7,13 +7,14 @@ To reproduce results regarding SAM's performance against SGD including Figure 5,
 
 ## Acknowledgments
 The original authors of SAM
-`@inproceedings{foret2021sharpnessaware,
+```bash
+@inproceedings{foret2021sharpnessaware,
   title={Sharpness-aware Minimization for Efficiently Improving Generalization},
   author={Pierre Foret and Ariel Kleiner and Hossein Mobahi and Behnam Neyshabur},
   booktitle={International Conference on Learning Representations},
   year={2021},
   url={https://openreview.net/forum?id=6Tm1mposlrM}
-}`
+}```
 - The SAM algorithm implemented is used from the paper [SHARPNESS-AWARE MINIMIZATION FOR EFFICIENTLY
 IMPROVING GENERALIZATION]([https://link.com](https://arxiv.org/abs/2010.01412)) 
 - The code used in this repository was heavily aided from the repository [Sharpness-Aware Minimization for Efficiently Improving Generalization ~ in Pytorch ~]([https://link.com](https://github.com/davda54/sam))
